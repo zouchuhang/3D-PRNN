@@ -20,12 +20,12 @@ test_samp = matio.load('./data/test_sample_mn_chair_test.mat')
 
 -- data
 -- get training dataset
-dataFile = torch.DiskFile('./data/prim_rnn_batch_nz_all_tr.t7', 'r')
+dataFile = torch.DiskFile('./data/prim_gt/prim_rnn_batch_nz_all_tr.t7', 'r')
 shapedata = dataFile:readObject()
 dataSize = #shapedata
 print('vox data loading...')
 
-trainData = matio.load('./data/depth_mn_test_chair_ts.mat')
+trainData = matio.load('./data/depth_map/depth_mn_test_chair_ts.mat')
 trainData = trainData.depth_tile
 ntrain = trainData:size(1)
 
