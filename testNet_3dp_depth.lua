@@ -11,7 +11,6 @@ local LSTMHN = require 'LSTMHN'
 local VOXnet = require 'depth_ae'
 require 'getBatch'
 matio = require 'matio'
-require 'manifold_shapenet_full_adobe.lua' -- shapenet dataset
 
 
 -- load model

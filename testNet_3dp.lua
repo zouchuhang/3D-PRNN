@@ -10,7 +10,6 @@ local LSTMH1 = require 'LSTMH1'
 local LSTMHN = require 'LSTMHN'
 require 'getBatch'
 matio = require 'matio'
-require 'manifold_shapenet_full_adobe.lua' -- shapenet dataset
 require 'cunn'
 
 -- load model
