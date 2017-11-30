@@ -45,9 +45,12 @@ th testNet_3dp_depth.lua
 ```
 
 ## Visualization
-We also include M
+- To visualize ground truth primitives, run visualizeGTPrimitive.m in Matlab
+- To visualize sample shape generation, run visualizeRandomGeneration.m 
+- To visualize sample shape generation conditioned on depth, run visualizeDepthReconGeneration.m
 
 ## Note
+For shape generation conditioned on depth, as explained in the paper Sec 5.1,  we perform a nearest neighbor query based on the encoded feature of the depth map to retrieve the most similar shape in the training set and use the configuration as the initial state for the RNN. We include our pre-computed initial configuration for each test class in folder "sample\_generation".
 
 
 ## Citation
