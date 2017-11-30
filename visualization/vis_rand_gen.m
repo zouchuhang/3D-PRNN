@@ -1,4 +1,4 @@
-% visualize 
+% visualize random generation result
 
 % res
 res = load('../data/sample_generation/test_res_mn_pure.mat');
