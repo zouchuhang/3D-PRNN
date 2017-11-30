@@ -6,5 +6,7 @@ For academic use only.
 - Linux
 - NVIDIA GPU + CUDA CuDNN
 - Torch
+  
   matio: https://github.com/tbeu/matio
+  
   distributions: https://github.com/deepmind/torch-distributions
