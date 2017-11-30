@@ -1,4 +1,4 @@
-% visualize generation samples
+% visualize generation samples conditioned on depth input
 
 cls = 'night_stand';
 type = 'test';
