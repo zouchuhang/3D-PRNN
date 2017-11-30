@@ -18,7 +18,7 @@ For academic use only.
 wget http://czou4.web.engr.illinois.edu/data/data_3dp.zip
 ```
   
-This includes 
+This includes our ground truth primitives(folder "prim\_gt")
 
 ## Train
 
@@ -41,4 +41,4 @@ year = {2017}
 ```
 
 ## Acknowledgement
-- We express gratitudes to the torch implementation of [hand writting digits generation](https://github.com/jarmstrong2/handwritingnet) as we benefit a lot from the code.
+- We express gratitudes to the torch implementation of [hand writting digits generation](https://github.com/jarmstrong2/handwritingnet) as we benefit from the code.
