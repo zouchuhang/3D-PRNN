@@ -16,11 +16,11 @@ matio = require 'matio'
 -- load model
 model = torch.load('./model/model_mn_depth_tr.t7')
 
-test_samp = matio.load('./data/test_sample_mn_chair_test.mat')
+test_samp = matio.load('./data/sample_generation/test_sample_mn_chair_test.mat')
 
 -- data
 -- get training dataset
-dataFile = torch.DiskFile('./data/prim_gt/prim_rnn_batch_nz_all_tr.t7', 'r')
+dataFile = torch.DiskFile('./data/prim_rnn_batch_nz_all_tr.t7', 'r')
 shapedata = dataFile:readObject()
 dataSize = #shapedata
 print('vox data loading...')
