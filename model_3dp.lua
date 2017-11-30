@@ -41,12 +41,12 @@ print('Uploaded validation')
 
 -- get depth data
 --print('vox data loading...')
-trainData = matio.load('./data/depth_mn_train_all_tr.mat')
+trainData = matio.load('./data/depth_map/depth_mn_train_all_tr.mat')
 trainData = trainData.depth_tile
 ntrain = trainData:size(1)
 --print(ntrain)
 --print('vox validation')
-valData = matio.load('./data/depth_mn_train_all_val.mat')
+valData = matio.load('./data/depth_map/depth_mn_train_all_val.mat')
 valData = valData.depth_tile
 nval = valData:size(1)
 
