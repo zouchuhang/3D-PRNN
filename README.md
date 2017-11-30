@@ -12,19 +12,40 @@ For academic use only.
   
   distributions: https://github.com/deepmind/torch-distributions
 
+- Matlab (for visualization)
+
 ## Data
 - download primitive data to current folder
 ```
 wget http://czou4.web.engr.illinois.edu/data/data_3dp.zip
 ```
   
-This includes our ground truth primitives(folder "prim\_gt")
+This includes our ground truth primitives (folder "prim\_gt") and the original ModelNet mesh (folder "ModelNet10\_mesh")
 
 ## Train
+- For shape generation from scratch:
+```
+th driver.lua
+```
+
+- For shape generation conditioned on single depth map:
+```
+th driver_depth.lua
+```
 
 ## Generation
+- For shape generation from scratch:
+```
+th testNet_3dp.lua
+```
+
+- For shape generation conditioned on single depth map:
+```
+th testNet_3dp_depth.lua
+```
 
 ## Visualization
+We also include M
 
 ## Note
 
