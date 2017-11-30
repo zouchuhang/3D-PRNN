@@ -1,7 +1,7 @@
 % visualize 
 
 % res
-res = load('../data/test_res_mn_pure.mat');
+res = load('../data/sample_generation/test_res_mn_pure.mat');
 res = res.x;
 
 for start_num = 1:size(res,1)
