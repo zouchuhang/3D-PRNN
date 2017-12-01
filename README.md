@@ -3,7 +3,7 @@ Torch implementation of ICCV 17 [paper](http://openaccess.thecvf.com/content_ICC
 
 For academic use only.
 
-<img src='figs/teasor.pdf' width=800>
+<img src='figs/teasor0v2.pdf' width=800>
 
 ## Prerequisites
 - Linux
