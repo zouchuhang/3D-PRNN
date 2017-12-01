@@ -17,7 +17,7 @@ For academic use only.
 - Matlab (for visualization)
 
 ## Data
-- download primitive data to current folder
+- Download primitive data to current folder
 ```
 wget http://czou4.web.engr.illinois.edu/data/data_3dp.zip
 ```
