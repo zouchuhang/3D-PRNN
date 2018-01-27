@@ -51,6 +51,9 @@ th testNet_3dp_depth.lua
 - To visualize sample shape generation, run visualizeRandomGeneration.m 
 - To visualize sample shape generation conditioned on depth, run visualizeDepthReconGeneration.m
 
+## Primitive ground truth
+- See ./matlab/ folder
+
 ## Note
 For shape generation conditioned on depth, as explained in the paper Sec 5.1,  we perform a nearest neighbor query based on the encoded feature of the depth map to retrieve the most similar shape in the training set and use the configuration as the initial state for the RNN. For convenience, we include our pre-computed initial configuration for each test class in folder "data/sample\_generation".
 
