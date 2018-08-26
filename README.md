@@ -1,8 +1,6 @@
 # 3D-PRNN
 Torch implementation of ICCV 17 [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zou_3D-PRNN_Generating_Shape_ICCV_2017_paper.pdf): "3D-PRNN, Generating Shape Primitives with Recurrent Neural Networks"
 
-For academic use only.
-
 <img src='figs/teasor.jpg' width=400>
 
 ## Prerequisites
@@ -60,12 +58,11 @@ For shape generation conditioned on depth, as explained in the paper Sec 5.1,  w
 
 ## Citation
 ```
-@InProceedings{Zou_2017_ICCV,
-author = {Zou, Chuhang and Yumer, Ersin and Yang, Jimei and Ceylan, Duygu and Hoiem, Derek},
-title = {3D-PRNN: Generating Shape Primitives With Recurrent Neural Networks},
-booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-month = {Oct},
-year = {2017}
+@inproceedings{zou20173d,
+  title={3d-prnn: Generating shape primitives with recurrent neural networks},
+  author={Zou, Chuhang and Yumer, Ersin and Yang, Jimei and Ceylan, Duygu and Hoiem, Derek},
+  booktitle={The IEEE International Conference on Computer Vision (ICCV)},
+  year={2017}
 }
 ```
 
