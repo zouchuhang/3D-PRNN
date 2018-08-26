@@ -56,7 +56,7 @@ th testNet_3dp_depth.lua
 For shape generation conditioned on depth, as explained in the paper Sec 5.1,  we perform a nearest neighbor query based on the encoded feature of the depth map to retrieve the most similar shape in the training set and use the configuration as the initial state for the RNN. For convenience, we include our pre-computed initial configuration for each test class in folder "data/sample\_generation".
 
 ## Primitive parsing
-We provide in the matlab folder the demo code (demo.m) to parse single primitive. To sequentially parse primitives in batch, see "script\_parse\_primitive.m". After each run of "script\_parse\_primitive.m" to get the parsed primitive, run "script\_parse\_primitive\_symmetry.m" to get the symmetry. With every three parses, try "script\_refine\_parse\_primitive.m" to refine the parsed primitives.
+We provide in the matlab folder the demo code (demo.m) to parse single primitive. To sequentially parse primitives in batch, see "script\_parse\_primitive.m". After each run of "script\_parse\_primitive.m", run "script\_parse\_primitive\_symmetry.m" to get the symmetry. With every three parses, try "script\_refine\_parse\_primitive.m" to refine the parsed primitives.
 
 ## Citation
 ```
