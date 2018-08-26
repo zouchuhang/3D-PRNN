@@ -2,7 +2,7 @@
 % "prim_gt" is the predicted primitive, with the format "[mesh number, shape, transition, rotation]"
 % If fitting fails due to random optimization, prim_gt is all zero
 %
-% Currently one primitive fitting step. Will update sooner.
+% To fit multiple primitives, see "script_parse_primitive.m" and "script_parse_primitive_symmetry.m"
 
 addpath(genpath('./minFunc_2012/'));
 
