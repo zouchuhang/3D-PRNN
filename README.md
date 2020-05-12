@@ -15,10 +15,7 @@ Torch implementation of ICCV 17 [paper](http://openaccess.thecvf.com/content_ICC
 - Matlab (for visualization)
 
 ## Data
-- Download primitive data to current folder
-```
-wget http://czou4.web.engr.illinois.edu/data/data_3dp.zip
-```
+- Download primitive [data](https://drive.google.com/file/d/19Jvu6urlDnNAG2gZRf-tObTqyRoeLfpm/view?usp=sharing) to current folder
   
 This includes our ground truth primitives (folder "prim\_gt") and the original ModelNet mesh (folder "ModelNet10\_mesh")
 
